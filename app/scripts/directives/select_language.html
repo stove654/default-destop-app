@@ -1,0 +1,12 @@
+
+<div uib-dropdown on-toggle="toggled(open)">
+      <div id="simple-dropdown" uib-dropdown-toggle>
+        <img ng-src="{{selectedLang.img}}" width="32">
+        <b class="caret"></b>
+      </div>
+      <ul class="dropdown-menu right" uib-dropdown-menu aria-labelledby="simple-dropdown">
+        <li ng-repeat="lang in locales">
+          <a ng-click="selectLangId(lang)"><img ng-src="{{lang.img}}" width="24" class="m-r-sm">{{lang.name}}</a>
+        </li>
+      </ul>
+</div>

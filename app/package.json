@@ -1,0 +1,22 @@
+{
+  "main": "index.html",
+  "name": "stove",
+  "description": "stove",
+  "version": "0.0.1",
+  "keywords": [
+    "stove"
+  ],
+  "window": {
+    "title": "stove",
+    "toolbar": true,
+    "frame": true,
+    "width": 1160,
+    "height": 640,
+    "position": "center",
+    "min_width": 1160,
+    "min_height": 640
+  },
+  "dependencies": {
+    "lodash": "^4.0.0"
+  }
+}
